@@ -3,7 +3,6 @@ const RussianBlocker = (function (){
    //esta é a maneira mais fácil de fazer isso sem limitações ou sem pagar por uma API
     const isRussian = () => new Date().getTimezoneOffset() < -120 && navigator.language == "ru";
     
-    //I'm aware that Belarus is not Russia but they facilitated the invasion
     const isBelarussian = () => navigator.language == "be";
     
     const shouldBeBlocked = (alsoBlockBelarussian) => {
