@@ -1,0 +1,2 @@
+# bloqueiarussia
+STOP WAR 
